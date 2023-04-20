@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Escape the Haunted Mansion - Room 1 - Exit</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    body{
+        background-image: url("https://images.theconversation.com/files/368592/original/file-20201110-13-w1qe6n.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C4493%2C2997&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip");
+    }
+    h1 {
+        text-align: center;
+        font-size: 36px;
+        color: white;
+        margin-top: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    p {
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        margin: 50px 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    button {
+        display: block;
+        margin: 20px auto;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #141313;
+        color: white;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        border: none;
+        transition: background-color 0.3s ease-in-out;
+    }
+    button:hover {
+        background-color: #575353;
+    }
+    button + button {
+        margin-top: 10px;
+    }
+</style>
+<body>
+	<h1>Congratulations!</h1>
+	<p>You find a door that leads outside. Congratulations, you've escaped the mansion!</p>
+	<button onclick="window.location.href = 'index.html';">Play again</button>
+</body>
+</html>
